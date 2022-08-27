@@ -1,0 +1,56 @@
+body {
+    background-color: #eff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+  }
+    
+  #quote-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    height: 60vh;
+    padding: 0 10vh;
+    border-radius: 15px;
+    width: 50vw;
+  }
+
+  #text {
+    font-weight: bold;
+    font-size: 3vh;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #author {
+    margin-top:1em;
+    text-align: end;
+    font-style: italic;
+    font-weight: 100;
+    align-self: flex-end;
+
+  }
+
+  #new-quote {
+    background: none;
+    border: none;
+    align-self: center;
+    font-size: 2.2vh;
+    font-family: sans-serif;
+  }
+
+  #tweet-quote {
+    text-decoration: none;
+    color: #000;
+    align-self: center;
+  }
+  
+  #footer-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2.4em
+  }
